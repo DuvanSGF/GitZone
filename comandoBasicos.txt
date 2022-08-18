@@ -1,0 +1,52 @@
+#para cambiar el nombre de un archivo
+git mv nombreactual nombre nuevo
+
+#Para saber en que rama estamos
+git branch
+
+#Para Crear una rama
+git branch nombre-rama
+
+#Para elimanar una rama
+git branch -d ramaelimiar
+
+#Para  renombrar una rama
+git branch -m nombre_viejo nombre_nuevo
+
+#Para pasar a una rama
+git checkout nombreRama
+
+#Crea una nueva rama y pasamos a ella
+git checkout -b nombreRama
+
+#Para pasar a un commit en especifico
+git checkout 123123123commit
+
+#Git merge se mezclan commit , tiempos , autor
+#Pasar a la linea master -este comando desde master
+git merge nombre-Branch
+
+#Guardar un porcion de trabajo
+Git stash
+
+#Aplico los cambios o recupero los cambios
+git stash pop
+
+#para ver los cambios en el git stash
+git stash list
+
+#Trabajando con tag
+git tag -d version0.0
+git tag nombre tag
+
+
+#Me traigo cambios sin unir
+git fetch origin master
+#Trae los cambios de otra forma on el pull - Pero aun no se ha unido
+git checkout origin/master
+
+# Para verlos vuelvo a master
+git checkout master
+
+#Luego ejecuto el merge
+git merge origin/master
