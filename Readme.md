@@ -1,5 +1,5 @@
 ```sql
-Select * from 
+print('He terminado - August')
 
 ```
 
