@@ -68,3 +68,12 @@ git shortlog --summary --numbered
 git describe
 
 git tag -a v3.o -m "Version3"
+
+#Para ver cambios y errores del proyecto
+git blame nombrearchivo
+
+#Para encontrar una palabra un archivo en especifico
+git grep palabraABuscar
+
+#Hacer comandos personalizados 
+git config --globaal alias.unstage 'Reset HEAD'
