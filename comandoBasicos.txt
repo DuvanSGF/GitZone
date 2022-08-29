@@ -50,3 +50,21 @@ git checkout master
 
 #Luego ejecuto el merge
 git merge origin/master
+
+#git show -- Para ver las diferencias - De commit o de todo el proyecto
+git show (commit - tag )
+
+
+#ver lños cambios en las fueestes de datos . commit . branch . archivos
+git show (commit - tag )
+
+#Vemos los commit y el autor
+git shortlog
+
+#Personas y numer commit
+git shortlog --summary --numbered
+
+#Busca el tag mas reciente que se le ha hecho a esa rama - aparece le numero del commit
+git describe
+
+git tag -a v3.o -m "Version3"
