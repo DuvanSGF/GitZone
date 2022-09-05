@@ -1,3 +1,7 @@
 Curso de Git
 Finalizado
 Con emoji
+
+#Seguir el ejemplo aca.
+
+gitmoji.carloscuesta.me
