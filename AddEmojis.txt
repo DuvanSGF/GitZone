@@ -1,1 +1,2 @@
 gitmoji.carloscuesta.me
+https://github.com/Thomas-George-T/emoji-cheat-sheet
